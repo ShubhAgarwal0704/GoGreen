@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/home_adminFragment">
+
+    <fragment
+        android:id="@+id/home_adminFragment"
+        android:name="com.example.gogreen.adminFragments.Home_adminFragment"
+        android:label="fragment_home_admin"
+        tools:layout="@layout/fragment_home_admin" >
+        <action
+            android:id="@+id/action_home_adminFragment_to_category_adminFragment"
+            app:destination="@id/category_adminFragment" />
+
+        <action
+            android:id="@+id/action_home_adminFragment_to_slider_admin_Fragment"
+            app:destination="@id/slider_admin_Fragment" />
+        <action
+            android:id="@+id/action_home_adminFragment_to_addProduct_adminFragment"
+            app:destination="@id/addProduct_adminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/category_adminFragment"
+        android:name="com.example.gogreen.adminFragments.Category_adminFragment"
+        android:label="fragment_category_admin"
+        tools:layout="@layout/fragment_category_admin" />
+    <fragment
+        android:id="@+id/product_adminFragment"
+        android:name="com.example.gogreen.adminFragments.Product_adminFragment"
+        android:label="fragment_product_admin"
+        tools:layout="@layout/fragment_product_admin" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/addProduct_adminFragment"
+        android:name="com.example.gogreen.adminFragments.addProduct_adminFragment"
+        android:label="fragment_add_product_admin"
+        tools:layout="@layout/fragment_add_product_admin" />
+    <fragment
+        android:id="@+id/slider_admin_Fragment"
+        android:name="com.example.gogreen.adminFragments.slider_admin_Fragment"
+        android:label="fragment_slider_admin_"
+        tools:layout="@layout/fragment_slider_admin_" />
+</navigation>

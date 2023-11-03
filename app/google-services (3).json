@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "93946776923",
+    "firebase_url": "https://gogreen-2a686-default-rtdb.firebaseio.com",
+    "project_id": "gogreen-2a686",
+    "storage_bucket": "gogreen-2a686.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93946776923:android:8bcf1b99170c49ec7d1e7e",
+        "android_client_info": {
+          "package_name": "com.example.gogreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93946776923-5dh323u8uakv7fcku82trddalta1ifpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0NVjFGZPumPfyfJkLzwb_QlDYaAXNHc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93946776923-5dh323u8uakv7fcku82trddalta1ifpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93946776923:android:555a2b401d053bf27d1e7e",
+        "android_client_info": {
+          "package_name": "com.example.my_gogreen_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93946776923-5dh323u8uakv7fcku82trddalta1ifpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0NVjFGZPumPfyfJkLzwb_QlDYaAXNHc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93946776923-5dh323u8uakv7fcku82trddalta1ifpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

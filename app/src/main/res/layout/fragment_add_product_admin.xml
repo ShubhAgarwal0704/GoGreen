@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorSecondary"
+    tools:context=".adminFragments.addProduct_adminFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/Productname"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="15sp"
+            android:background="@drawable/edit_text_bg"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Product Name"
+            android:padding="5sp"
+            android:textColorHint="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+        <!--            <com.google.android.material.textfield.TextInputLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"/>-->
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/Productdesc"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Product Description"
+            android:padding="5dp"
+            android:textColorHint="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/Productprice"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Product price"
+            android:padding="5dp"
+            android:textColorHint="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+        <Spinner
+            android:id="@+id/addProductDropdown"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_spinner_background"
+            android:fontFamily="@font/montserrat_semibold"
+            android:minHeight="38dp"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/selectcoverimg"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_select"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="Select Cover Image"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/product_cover_img"
+                android:layout_width="45sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/prod_imgButton"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_select"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Select Image"
+                android:textAllCaps="false"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/product_img_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="65sp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:listitem="@layout/image_item" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitButton"
+            android:layout_width="150sp"
+            android:layout_height="45sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/gradient_button"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="Add"
+            android:layout_marginTop="15sp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+    </LinearLayout>
+</ScrollView>

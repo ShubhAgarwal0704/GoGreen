@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GoGreen</string>
+    <string name="gogreen">GoGreen!</string>
+    <string name="do_not_have_an_account_create_one">Do not have an account? Create one!</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="password">  Password</string>
+    <string name="username">  Username</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="welcome_user">Welcome, User!</string>
+    <string name="hello_blank_fragment">hello\n</string>
+    <string name="full_name">Full Name</string>
+    <string name="gogreen2">GoGreen</string>
+    <string name="address">Address</string>
+    <string name="username2">Username</string>
+    <string name="email">Email</string>
+    <string name="password2">Password</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_a_acount_login_now">Already Have a Acount? Login Now</string>
+    <string name="gogreen3">GoGreen!</string>
+    <string name="logout">logout</string>
+    <string name="upload">Upload</string>
+    <string name="profile">Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="useremail_gmail_com">useremail@gmail.com</string>
+    <string name="password3">Password</string>
+    <string name="password4">Password:</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textview"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="8dp"
+    android:background="@drawable/edit_text_bg"
+    android:textSize="18sp"
+    android:drawableStart="@drawable/baseline_transgender_24"
+    android:fontFamily="@font/montserrat_semibold"
+    android:textColor="#72000000"
+    tools:ignore="UseCompatTextViewDrawableXml" />
+
+
+
+
