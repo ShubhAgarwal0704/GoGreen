@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@color/colorSecondary"
+    android:background="@color/colorPrimary"
     tools:context=".adminFragments.addProduct_adminFragment">
 
     <LinearLayout
@@ -160,7 +160,7 @@
             android:padding="10sp"
             android:text="Add"
             android:layout_marginTop="15sp"
-            android:textColor="@color/colorSecondary"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp"
             tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
     </LinearLayout>

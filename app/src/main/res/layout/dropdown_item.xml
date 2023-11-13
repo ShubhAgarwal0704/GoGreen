@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/textview"
     android:padding="14dp"
-    android:background="@color/colorSecondaryDark"
+    android:background="@color/colorPrimaryDark"
     android:textSize="18sp"
     android:fontFamily="@font/montserrat_semibold"
     android:textColor="@color/white"

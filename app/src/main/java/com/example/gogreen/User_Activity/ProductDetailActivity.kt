@@ -4,11 +4,13 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import com.codebyashish.autoimageslider.Enums.ImageScaleType
 import com.codebyashish.autoimageslider.Models.ImageSlidesModel
-import com.example.gogreen.UsersActivity
+import com.example.gogreen.User_Activity.UsersActivity
 
 import com.example.gogreen.databinding.ActivityProductDetailBinding
 import com.example.gogreen.roomdb.AppDatabase
@@ -88,7 +90,9 @@ class ProductDetailActivity : AppCompatActivity() {
 
         lifecycleScope.launch(Dispatchers.IO) {
             productDao.insertProduct(data)
-            binding.textView10.text = "Go to Cart"
+            Handler(Looper.getMainLooper()).post {
+                binding.textView10.text = "Go to Cart"
+            }
         }
     }
 
@@ -97,7 +101,6 @@ class ProductDetailActivity : AppCompatActivity() {
         val editor = preferences.edit()
         editor.putBoolean("isCart", true)
         editor.apply()
-
         startActivity(Intent(this, UsersActivity::class.java))
         finish()
     }
