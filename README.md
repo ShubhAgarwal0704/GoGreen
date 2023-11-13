@@ -19,7 +19,7 @@ Go Green is a mobile application that aims to provide users with a sustainable a
 First, clone the repository with the 'clone' command, or just download the zip.
 
 ```
-$ git clone https://github.com/soumenkp2/Pehchaan.git
+$ git clone https://github.com/ShubhAgarwal0704/GoGreen.git
 ```
 
 Then, download Android Studio , 
