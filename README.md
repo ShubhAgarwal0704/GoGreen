@@ -8,7 +8,6 @@ Go Green is a mobile application that aims to provide users with a sustainable a
   <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_0.png" width="176" hspace="5">
   <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_1.png" width="176" hspace="5">
   <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_2.png" width="176" hspace="5">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_3.png" width="176" hspace="5">
   <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_4.png" width="176" hspace="5">
   <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_5.png" width="176" hspace="5">
   <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_6.png" width="176" hspace="5">
