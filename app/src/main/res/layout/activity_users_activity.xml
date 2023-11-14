@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-android:background="@color/colorSecondary">
-
-         <FrameLayout
-           android:id="@+id/fragmentContainer"
-             android:layout_width="match_parent"
-              android:layout_height="match_parent"
-             />
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/logoutbutton"
-        android:layout_width="80sp"
-        android:layout_height="35sp"
-        android:layout_marginTop="13sp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="10sp"
-    android:background="@drawable/gradient_button"
-        android:text="logout"/>
-
-
-
-
-<com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/bottomNavigationView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#BD9B72"
-    android:layout_alignParentBottom="true"
-    android:padding="2dp"
-    app:itemIconTint="@color/black"
-    app:itemTextColor="@color/black"
-    app:menu="@menu/bottom_navigation_menu"/>
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomContainer" />
 
+    <carbon.widget.LinearLayout
+        android:id="@+id/bottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="6">
 
+        <nl.joery.animatedbottombar.AnimatedBottomBar
+            android:id="@+id/bottomBar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@color/colorPrimaryDark"
+            app:abb_badgeTextColor="@color/white"
+            app:abb_badgeTextSize="15sp"
+            app:abb_indicatorAppearance="round"
+            app:abb_indicatorColor="@color/colorAccentLight"
+            app:abb_indicatorHeight="5dp"
+            app:abb_indicatorMargin="16dp"
+            app:abb_selectedIndex="1"
+            app:abb_selectedTabType="text"
+            app:abb_tabColor="@color/white"
+            app:abb_tabColorSelected="@color/colorAccentLight"
+            app:abb_tabs="@menu/bottom_navigation_menu"
+            app:abb_textAppearance="@style/BottomBarText"
+            app:abb_textSize="18sp"
+            app:abb_textStyle="bold" />
 
+        <carbon.widget.ImageView
+            android:id="@+id/logoutBtn"
+            android:padding="14dp"
+            app:carbon_tint="@color/white"
+            android:src="@drawable/ic_logout"
+            android:layout_width="0dp"
+            android:background="@color/colorAccentLight"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
+    </carbon.widget.LinearLayout>
 
 </RelativeLayout>
 

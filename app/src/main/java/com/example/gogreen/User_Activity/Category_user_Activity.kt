@@ -29,7 +29,7 @@ class Category_user_Activity : AppCompatActivity() {
                     list.add(data!!)
                 }
                 val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
-              recyclerView.adapter = ProductuserAdapter(this,list)
+              recyclerView.adapter = ProductuserAdapter(this,ArrayList(list),list)
             }
     }
 }

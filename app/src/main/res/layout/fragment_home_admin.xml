@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_marginTop="10dp"
     android:gravity="center"
-    android:background="@color/colorSecondary"
+    android:background="@color/colorPrimary"
     tools:context=".adminFragments.Home_adminFragment">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -19,7 +19,7 @@
         android:gravity="center"
         android:padding="10sp"
         android:text="Add category"
-        android:textColor="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         tools:ignore="VisualLintButtonSize,TextContrastCheck" />
 
@@ -33,7 +33,7 @@
         android:gravity="center"
         android:padding="10sp"
         android:text="Add product"
-        android:textColor="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
@@ -48,7 +48,7 @@
         android:gravity="center"
         android:padding="10sp"
         android:text="Add slider"
-        android:textColor="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 

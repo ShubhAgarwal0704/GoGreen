@@ -8,5 +8,4 @@ data class addProductuserModel(
     val productCategory : String?="",
     val productId : String?="",
     val productImages : ArrayList<String> = ArrayList()
-
 )
