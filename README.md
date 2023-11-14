@@ -5,13 +5,13 @@
 Go Green is a mobile application that aims to provide users with a sustainable and eco-friendly shopping experience. The app includes standard ecommerce features such as login/signup, profile management, product gallery, cart functionality, and seamless integration with a sustainable payment gateway.
 
 <p align="center">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_0.png" width="176" hspace="5">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_1.png" width="176" hspace="5">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_2.png" width="176" hspace="5">
-    <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_3.png" width="176" hspace="5">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_4.png" width="176" hspace="5">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_5.png" width="176" hspace="5">
-  <img src="https://omstar.co.in/public/uploads/all/Screenshot_g_6.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_0.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_1.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_2.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_3.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_4.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_5.png" width="176" hspace="5">
+  <img src="https://omstar.co.in/public/uploads/all/Screenshot_gg_6.png" width="176" hspace="5">
 </p>
 
 ## Download & install
